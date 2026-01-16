@@ -45,7 +45,9 @@ export default function Index() {
               <SearchBar 
                 onPress={() => router.push("/search")}
                 placeholder = "Search for a Movie!"
-
+                value=''
+                //@ts-ignore
+                onChangeText=''
               />
               <>
                 <Text className="text-lg font-bold text-white mt-3 ml-3 mb-2">Latest Movies</Text>

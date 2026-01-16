@@ -21,7 +21,7 @@ const MovieCard = ( {id, poster_path, title, vote_average, release_date} : Movie
                     source={icons.star}
                     className='size-4 mt-1'
                 />
-                <Text className='text-xs text-white mt-1'>{Math.round(vote_average /2)}</Text>
+                <Text className='text-xs text-white mt-1.5'>{Math.round(vote_average /2)}</Text>
             </View>
             <View className='flex-row items-center justify-start'>
                 <Text className='text-xs text-light-300'>{release_date?.split('-')[0]}</Text>
